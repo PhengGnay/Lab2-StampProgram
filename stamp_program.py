@@ -8,11 +8,10 @@
 
 sheet = 1000
 answer = round(sheet / 5)
+rounded = (answer) 
 print("sheet is : ", sheet)
 print("The answer is: ", answer)
-print("rounded is: ", round)
-
-
+print("rounded is: ", rounded)
 
 def calculate(sheet):
     answer = round(sheet / 5)
@@ -22,5 +21,6 @@ def calculate(sheet):
     print("rounded is: ", rounded)
     return rounded
 
+output = calculate(16)
 
-calculate(16)
+print("The number of stamps needed is: ", output)
