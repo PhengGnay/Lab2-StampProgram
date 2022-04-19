@@ -6,16 +6,7 @@
 # output the result to the user
 # end
 
-# sheet = 1000
-# answer = round(sheet / 5)
-# rounded = (answer) 
-# print("sheet is : ", sheet)
-# print("The answer is: ", answer)
-# print("rounded is: ", rounded)
 
-import math
-
-# input: sheet 
 def calculate(sheet):
     # step 1
     answer = sheet / 5
@@ -30,4 +21,4 @@ def calculate(sheet):
 
 output = calculate(16)
 
-print("The number of stamps needed is: ", output)
+
